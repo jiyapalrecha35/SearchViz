@@ -65,7 +65,7 @@ async function LinearSearch(delay = 500) {
         comparisons++;
 
         // Updating the comparison count element
-        comparisonCount.innerText = `Number of comparsions made to search: ${comparisons}`;
+        comparisonCount.innerText = `Number of comparsions: ${comparisons}`;
 
         // Extracting value of current block
         let value = Number(blocks[i].childNodes[0].innerHTML);
@@ -178,7 +178,7 @@ async function BinarySearch(delay = 500) {
 
         comparisons++;
 
-        comparisonCount.innerText = `Number of comparsions made to search: ${comparisons}`;
+        comparisonCount.innerText = `Number of comparsions: ${comparisons}`;
 
         var value = Number(blocks[mid].childNodes[0].innerHTML);
 
